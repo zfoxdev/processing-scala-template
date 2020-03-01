@@ -11,5 +11,8 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.3.+",
   "ch.qos.logback" % "logback-core" % "1.1.+",
   "ch.qos.logback" % "logback-classic" % "1.1.+",
-  "org.slf4j" % "slf4j-api" % "1.7.+"
+  "org.slf4j" % "slf4j-api" % "1.7.+",
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test",
+  "org.jogamp.jogl" % "jogl-all-main" % "2.3.+",
+  "org.jogamp.gluegen" % "gluegen-rt-main" % "2.3.+"
 )
